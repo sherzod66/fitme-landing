@@ -12,8 +12,11 @@ import Reveal from '../ui/motion/Reveal'
  */
 const PAIRS: { key: string; before?: string; after?: string }[] = [
 	{ key: 'one', before: '/images/results/before-1.webp', after: '/images/results/after-1.webp' },
-	{ key: 'two' },
-	{ key: 'three' }
+	{ key: 'two', before: '/images/results/before-2.webp', after: '/images/results/after-2.webp' },
+	{ key: 'three', before: '/images/results/before-3.webp', after: '/images/results/after-3.webp' },
+	{ key: 'four', before: '/images/results/before-4.webp', after: '/images/results/after-4.webp' },
+	{ key: 'five', before: '/images/results/before-5.webp', after: '/images/results/after-5.webp' },
+	{ key: 'six', before: '/images/results/before-6.webp', after: '/images/results/after-6.webp' }
 ]
 
 type ShotProps = {
@@ -43,7 +46,7 @@ function Shot({ src, label, accent }: ShotProps) {
 
 			<figcaption
 				className={clsx(
-					'absolute left-2.5 top-2.5 rounded-full px-2.5 py-1 text-[9px] font-semibold uppercase tracking-[0.16em] backdrop-blur-md',
+					'absolute left-2.5 top-2.5 rounded-full px-2.5 py-1 text-[9px] font-semibold uppercase tracking-[0.16em] backdrop-blur-md shadow-sm shadow-white/20',
 					accent ? 'bg-accent text-white' : 'bg-ink/70 text-muted'
 				)}
 			>
