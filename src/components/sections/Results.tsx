@@ -16,7 +16,8 @@ const PAIRS: { key: string; before?: string; after?: string }[] = [
 	{ key: 'three', before: '/images/results/before-3.webp', after: '/images/results/after-3.webp' },
 	{ key: 'four', before: '/images/results/before-4.webp', after: '/images/results/after-4.webp' },
 	{ key: 'five', before: '/images/results/before-5.webp', after: '/images/results/after-5.webp' },
-	{ key: 'six', before: '/images/results/before-6.webp', after: '/images/results/after-6.webp' }
+	{ key: 'six', before: '/images/results/before-6.webp', after: '/images/results/after-6.webp' },
+	{ key: 'seven', before: '/images/results/before-7.webp', after: '/images/results/after-7.webp' }
 ]
 
 type ShotProps = {
